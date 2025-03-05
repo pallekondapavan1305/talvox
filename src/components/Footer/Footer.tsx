@@ -62,9 +62,9 @@ const Footer: React.FC = () => {
               <li>
                 <a href="https://talvox.com/services">Services</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/work">Our Work</a>
-              </li>
+              </li> */}
               <li>
                 <a href="https://talvox.com/contact">Contact Us</a>
               </li>
@@ -122,13 +122,13 @@ const Footer: React.FC = () => {
         <div className="footer-bottom">
           <div className="copyright">
             <p>
-              &copy; {new Date().getFullYear()} TAlVOX. All Rights Reserved.
+              &copy; {new Date().getFullYear()} TALVOX. All Rights Reserved.
             </p>
           </div>
-          <div className="footer-bottom-links">
+          {/* <div className="footer-bottom-links">
             <a href="/privacy-policy">Privacy Policy</a>
             <a href="/terms-of-service">Terms of Service</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
