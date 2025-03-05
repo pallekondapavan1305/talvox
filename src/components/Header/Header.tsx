@@ -29,7 +29,7 @@ const Header: React.FC = () => {
         <div className="logo">
           <a href="/">
             <img
-              src="https://res.cloudinary.com/stylishpavan/image/upload/v1741171500/o7ttv9blwpmwjirwgblt.png"
+              src="https://res.cloudinary.com/dfueurbsh/image/upload/v1741172395/main_vpfkjn.png"
               alt="Talvox Logo"
               className="logo-img"
             />
