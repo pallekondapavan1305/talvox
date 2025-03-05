@@ -24,19 +24,23 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
+    <header className={`header ${isScrolled ? "scrolled" : ""}`}>
       <div className="header-container">
-      <div className="logo">
-       <a href="/">
-        <img src="./Images/main.png" alt="Talvox Logo" className="logo-img" />
-       </a>
-      </div>
-        
+        <div className="logo">
+          <a href="/">
+            <img
+              src="https://res.cloudinary.com/stylishpavan/image/upload/v1741171500/o7ttv9blwpmwjirwgblt.png"
+              alt="Talvox Logo"
+              className="logo-img"
+            />
+          </a>
+        </div>
+
         {/* <div className="mobile-menu-button" onClick={toggleMenu}>
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </div> */}
-        
-        <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
+
+        <nav className={`nav-menu ${isMenuOpen ? "active" : ""}`}>
           <ul>
             {/* <li><a href="/" className="nav-link">Home</a></li>
             <li className="dropdown">
@@ -60,11 +64,23 @@ const Header: React.FC = () => {
                 
               </div>
             </li> */}
-            <li><a href="/work" className="nav-link active">Our Work</a></li>
-            <li><a href="/blog" className="nav-link"></a></li>
-            <li><a href="/contact" className="nav-link"></a></li>
-            <li><a href="/blog" className="nav-link"></a></li>
-            <li><a href="/contact" className="nav-link"></a></li>
+            <li>
+              <a href="/work" className="nav-link active">
+                Our Work
+              </a>
+            </li>
+            <li>
+              <a href="/blog" className="nav-link"></a>
+            </li>
+            <li>
+              <a href="/contact" className="nav-link"></a>
+            </li>
+            <li>
+              <a href="/blog" className="nav-link"></a>
+            </li>
+            <li>
+              <a href="/contact" className="nav-link"></a>
+            </li>
           </ul>
         </nav>
       </div>
